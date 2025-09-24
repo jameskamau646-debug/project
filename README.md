@@ -17,7 +17,9 @@ However, the ties are not evenly distributed.
 # Plotting an Interactive plot using networkD3
 An Interactive visualization of the Monks Using the networkD3::forceNetwork() function.
 ![Image Alt](https://github.com/jameskamau646-debug/project/blob/63478e579a577cb638ca6922d066676295e7d79d/interactive_plot1.png)
+
 This shows interactive Monks 
+
 # Part 2 - Summary Statistics
 # Here are the Results
 $degree_out
@@ -47,7 +49,7 @@ For this part, a function was written to generate a random socio matrix. In this
 
 # Part 4 - Comparison: Model vs Observations
 ![Image Alt](https://github.com/jameskamau646-debug/project/blob/3678177de8d6cfff960c795d1cea63a1b8d25c14/Random_network.png)
-![Image Alt]()
+![Image Alt](https://github.com/jameskamau646-debug/project/blob/e913d7a3c164d939f73138590d9829f784001ea4/interactive_plot2.png)
 ![Image Alt]()
 The Summary Statistics are as shown below. 
 $degree_out2
