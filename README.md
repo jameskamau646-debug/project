@@ -2,7 +2,8 @@
 
 # Name: 
 
-# For part 0 of the project, the task was to install and load the lda, igraph, and networkd3 packages to load the required data. 
+For part 0 of the project, the task was to install and load the lda, igraph, and networkd3 packages to load the required data. 
+
 # Part 1 - Visualizing the Network
 
 Forming the desired matrix that would necessitate running dataframes of nodes and edges, as required by the networkD3. This was done by using the SAMPLK2 Network plot.
@@ -44,14 +45,18 @@ reflecting selective or hierarchical relationships rather than widespread intera
 For this part, a function was written to generate a random socio matrix. In this function, each monk is assigned likes at random. 
 18 monks were used as n, and the probability of liking was set as default (0.3), and the maximum ti strength was also set. 
 
-
-
-
 # Part 4 - Comparison: Model vs Observations
+For this part of the question, the idea was to repeat the process that was carried out in part 1. However, we needed to describe the structure of the network that was simulated by the model. This was done by producing the charts shown below to help in the description. 
+# Static Plot for the Randomly Generated Monk
 ![Image Alt](https://github.com/jameskamau646-debug/project/blob/3678177de8d6cfff960c795d1cea63a1b8d25c14/Random_network.png)
+
+# Interactive Plot for the Randomly Generated Monk
 ![Image Alt](https://github.com/jameskamau646-debug/project/blob/e913d7a3c164d939f73138590d9829f784001ea4/interactive_plot2.png)
+
+# BarPlot for the Randomly Generated Monk
 ![Image Alt](https://github.com/jameskamau646-debug/project/blob/9cbfb1c7732f979dd38a18586b7b71e6525ebce9/barplot2.png)
-The Summary Statistics are as shown below. 
+# The Summary Statistics are as shown below. 
+
 $degree_out2
  monk1  monk2  monk3  monk4  monk5  monk6  monk7  monk8  monk9 monk10 monk11 monk12 monk13 monk14 monk15 monk16 
      4      4      7      4      3      6      4      5      4      4      5      4      7      5      5      5 
@@ -65,9 +70,13 @@ monk17 monk18
 $average_2
 [1] 1.988095
 
+As the results have indicated, the Average degree was greater in the randomly generated monks than it was in Sampson's monk. Moreover, when comparing the two networks, a relatively high connectivity with individuals maintaining multiple ties was observed. Additionally, the degree of distribution was also similar in the majority of the nodes that had out-degree, but relatively few for those that had in-degree. 
+
 # Conclusion and Reflection
 The results with the Monk network showed a clear structure for static and interactive plots. The results of the mean indicated that the tie strength was 1.947, and the most liked monk was ROMUL_10, 
-while the least liked monk was AMBROSE_9. The degrees for the random model network were more evenly distributed. This means that no popular or unpopular monks stood out. 
-Comparing them with the Sampson's monk structure, they had no strong community structures. Finally, on reflection, 
+while the least liked monk was AMBROSE_9. However, the mean tie strength for the randomly generated monk was 1.9881 and was greater than that of the monk network. The degrees for the random model network were more evenly distributed. This means that no popular or unpopular monks stood out. 
+Comparing them with the Sampson's monk structure, they had no strong community structures. 
+This project provided valuable insights into both technical skills and the interpretation of social network data. From a technical perspective, I learned how to generate and include plots in Markdown, manage files for GitHub submission, and calculate key network measures such as in-degree, out-degree, and average degree. The graphical visualizations were useful in identifying central nodes and structural patterns within the network
+Finally, on reflection, 
 It was observed that the observed networks had meaningful patterns that were not clear in the generated monks. 
 
