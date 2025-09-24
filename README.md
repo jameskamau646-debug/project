@@ -46,7 +46,7 @@ For this part, a function was written to generate a random socio matrix. In this
 
 
 # Part 4 - Comparison: Model vs Observations
-![Image Alt]()
+![Image Alt](https://github.com/jameskamau646-debug/project/blob/3678177de8d6cfff960c795d1cea63a1b8d25c14/Random_network.png)
 ![Image Alt]()
 ![Image Alt]()
 The Summary Statistics are as shown below. 
