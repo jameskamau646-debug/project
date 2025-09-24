@@ -34,7 +34,7 @@ $degree_in
         4         2         2         2         2         2         3 
 $average_
 [1] 1.947368
-![Image Alt]()
+![Image Alt](https://github.com/jameskamau646-debug/project/blob/9cbfb1c7732f979dd38a18586b7b71e6525ebce9/barplot1.png)
 From the degree analysis, we see that out-degrees are relatively balanced, with most nodes sending ties to 3 or 4 others, suggesting fairly even outward connectivity. 
 However, in-degrees vary more widely, ranging from 1 to 8, indicating that some individuals, for instance, ROMUL_10, BONAVEN_5, are highly popular or central, while others receive few ties. 
 The average degree of 1.9474 highlights a moderately sparse network overall, meaning most nodes are connected to only a small fraction of the group, 
@@ -50,7 +50,7 @@ For this part, a function was written to generate a random socio matrix. In this
 # Part 4 - Comparison: Model vs Observations
 ![Image Alt](https://github.com/jameskamau646-debug/project/blob/3678177de8d6cfff960c795d1cea63a1b8d25c14/Random_network.png)
 ![Image Alt](https://github.com/jameskamau646-debug/project/blob/e913d7a3c164d939f73138590d9829f784001ea4/interactive_plot2.png)
-![Image Alt]()
+![Image Alt](https://github.com/jameskamau646-debug/project/blob/9cbfb1c7732f979dd38a18586b7b71e6525ebce9/barplot2.png)
 The Summary Statistics are as shown below. 
 $degree_out2
  monk1  monk2  monk3  monk4  monk5  monk6  monk7  monk8  monk9 monk10 monk11 monk12 monk13 monk14 monk15 monk16 
