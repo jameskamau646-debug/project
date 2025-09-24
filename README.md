@@ -11,7 +11,7 @@ Forming the desired matrix that would necessitate running dataframes of nodes an
 
 # We plot the graph using the Igraph
 A Static Visualization of the Monks by using the igraph::plot.igraph() function.
-
+![Image Alt](https://github.com/jameskamau646-debug/project/blob/408eda9c4b2783642c0d879da7d8d9a30f21a85f/Static_plot.png)
 
 This chart shows that the overall structure of the monks is directed. The arrows indicate which monk is liked by another monk, and the density of the connections implies that the majority of the monks are interconnected. 
 However, the ties are not evenly distributed. 
