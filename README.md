@@ -14,7 +14,7 @@ A Static Visualization of the Monks by using the igraph::plot.igraph() function.
 
 This chart shows that the overall structure of the monks is directed. The arrows indicate which monk is liked by another monk, and the density of the connections implies that the majority of the monks are interconnected. 
 However, the ties are not evenly distributed. 
-# For the second plot of part 1, the idea was first to create an adjacency matrix, then convert it to nodes and edges data frames that would help to visualize the data interactively.
+For the second plot of part 1, the idea was first to create an adjacency matrix, then convert it to nodes and edges data frames that would help to visualize the data interactively.
 # Plotting an Interactive plot using networkD3
 An Interactive visualization of the Monks Using the networkD3::forceNetwork() function.
 ![Image Alt](https://github.com/jameskamau646-debug/project/blob/63478e579a577cb638ca6922d066676295e7d79d/interactive_plot1.png)
